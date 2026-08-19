@@ -469,3 +469,63 @@ body {
     /* 10. UP Labour Card */
     .card-rasan .icon-box { background-color: #573913; color: #81c45a; }
     .card-rasan .btn { background-color: #4878cf; }
+/* --- Responsive Breakpoints --- */
+
+/* Tablet Screens (1024px and below) */
+@media (max-width: 1669px) {
+ 
+  .btn-yellow {
+    justify-content: flex-start;
+    width: 50%;
+    gap: 10px;
+    padding: 12px 20px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .hero-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px 16px;
+    border-radius: 12px;
+    gap: 16px;
+  }
+
+  .btn-yellow {
+    justify-content: flex-start;
+    width: 100%;
+    gap: 10px;
+  }
+}
+
+/* Mobile Screens (600px and below) */
+@media (max-width: 600px) {
+  .hero-banner {
+    padding: 18px 16px;
+    border-radius: 12px;
+    gap: 16px;
+  }
+
+  .hero-banner h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero-banner p {
+    font-size: 0.8rem;
+  }
+
+  .btn-yellow {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+   
+  }
+
+  .banner-btn {
+    width: 100%;
+    text-align: center;
+    white-space: normal; /* Mobile par text multi-line me wrap hone dega */
+    padding: 12px 10px;
+    font-size: 0.9rem;
+  }
+}
